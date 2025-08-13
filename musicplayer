@@ -20,7 +20,7 @@ StatusLabel.Position = UDim2.new(0, 10, 0, 10)
 StatusLabel.BackgroundTransparency = 1
 StatusLabel.TextColor3 = Color3.new(1, 1, 1)
 StatusLabel.TextScaled = true
-StatusLabel.Text = "Music Player..."
+StatusLabel.Text = "Đang chạy script..."
 StatusLabel.Parent = Frame
 
 -- Nút Close
@@ -44,4 +44,4 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/
 Ioad('7208e39603889391caf77f6ff7d21e01')
 
 -- Cập nhật trạng thái khi xong
-StatusLabel.Text = "SFramerpcccittt
+StatusLabel.Text = "Script đã chạy!"
